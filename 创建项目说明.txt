@@ -1,0 +1,24 @@
+Vue2.0创建项目
+    // 1 先安装脚手架
+    npm install -g @vue/cli
+
+    // 2 如果已经安装过，可以更新一下脚手架
+    npm update -g @vue/cli
+
+    // 3 检查脚手架是否安装成功
+    vue -V
+
+    // 4 创建项目(选择Vue2)
+    vue create project_name
+
+Vue3.0创建项目
+    方式一：依旧使用脚手架(选择Vue3)
+        vue create project_name
+    注意：要保证脚手架版本是4.5.0以上。该方式单纯的使用Vue3核心语法，不涉及vite。
+
+    方式二：使用vite创建
+        npm create vite@latest project_name 等价于 npm init vite@latest project_name // create是个别名
+
+        或
+
+        npm init vite-app project_name
